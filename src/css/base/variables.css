@@ -1,0 +1,45 @@
+:root {
+
+    /* cores */
+    --background-color: #05050F;
+
+    --primary-color: #161642;
+    --secondary-color: #272775;
+
+    --text-color: #DDD627;
+    --text-secondary-color: #F7F7F7;
+    --text-link-color: #05050F;
+
+    --color-white: #FFFFFF;
+
+
+    /* fontes */
+
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Raleway", sans-serif;
+
+
+
+    --font-weight-medium:500;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+
+    --font-size-sm:1rem;          /*16px*/
+    --font-size-md:1.125rem;      /*18px*/
+    --font-size-lg:1.3125rem;     /*21px*/
+    --font-size-xl:2.25rem;       /*36px*/
+    --font-size-hero:4.5rem;      /*72px*/
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* estilo base */
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color:var(--text-secondary-color);
+  font-family: var(--font-primary);
+}
