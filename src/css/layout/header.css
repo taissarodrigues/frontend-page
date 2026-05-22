@@ -1,0 +1,17 @@
+.navbar-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+}
+
+.navbar-custom .nav-link {
+  color: var(--text-color);
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: var(--text-color);
+}
