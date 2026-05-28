@@ -12,13 +12,11 @@
 
     --color-white: #FFFFFF;
     --navbar-toggler-color: #DDD627;
+    --primary-color-button:  #DDD627;
 
     /* fontes */
 
     --font-primary: "Montserrat", sans-serif;
-    --font-secondary: "Raleway", sans-serif;
-
-
 
     --font-weight-medium:500;
     --font-weight-semibold:600;

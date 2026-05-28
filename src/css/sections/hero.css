@@ -1,0 +1,30 @@
+.hero {
+  min-height: 100vh;
+  padding: 10rem 0 5rem;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, rgba(5, 5, 15, 0.9) 100%),
+    url("../../../assets/img/destaque/destaque 1.png") center right / cover no-repeat;
+}
+
+.hero-title {
+  min-width: 15.6rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary-color);
+}
+@media (max-width: 991px) {
+  .hero {
+    min-height: auto;
+    padding: 20rem 0 12rem;
+    background:
+    linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, rgba(5, 5, 15, 0.9) 100%),
+
+      url("../../../assets/img/destaque/destaque 1.png") center / cover no-repeat;
+  }
+
+  .hero-title {
+    font-size: var(--font-size-xl);
+     max-width: 10rem;
+  }
+}
