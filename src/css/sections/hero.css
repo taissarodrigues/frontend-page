@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   background:
-    linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, rgba(5, 5, 15, 0.9) 100%),
+    linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, 
+                            rgba(5, 5, 15, 1) 100%),
     url("../../../assets/img/destaque/destaque 1.png") center right / cover no-repeat;
 }
 
@@ -31,7 +32,8 @@
     min-height: 100vh;
     padding: 8rem 0 4rem;
     background:
-      linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, rgba(5, 5, 15, 0.9) 100%),
+      linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, 
+                              rgba(5, 5, 15, 1) 100%),
       url("../../../assets/img/destaque/destaque 1.png") center top / cover no-repeat;
   }
 
