@@ -1,11 +1,11 @@
-.title-main {
+.u-title-main {
   font-family: var(--font-primary);
   font-size: var(--font-size-hero); /* 72px */
   line-height: 1.1;
   font-weight: var(--font-weight-bold);
 }
 
-.title-section {
+.u-title-section {
   font-family: var(--font-primary);
   font-size: var(--font-size-xl); /* 36px */
   line-height: 1.2;
@@ -13,37 +13,23 @@
   color: var(--text-color);
 }
 
-.title-card {
+.u-title-card {
   font-family: var(--font-primary);
   font-size: var(--font-size-lg); /* 21px */
   line-height: 1.3;
   font-weight: var(--font-weight-bold);
 }
 
-.text-large {
+.u-text-large {
   font-family: var(--font-primary);
   font-size: var(--font-size-md); /* 18px */
   line-height: 1.5;
   font-weight: var(--font-weight-medium);
 }
 
-.text-base {
+.u-text-medium {
   font-family: var(--font-primary);
   font-size: var(--font-size-sm); /* 16px */
   line-height: 1.5;
   font-weight: var(--font-weight-medium);
-}
-
-.link-menu {
-  font-family: var(--font-secondary);
-  font-size: var(--font-size-sm); /* 16px */
-  line-height: 1.3;
-  font-weight: var(--font-weight-bold);
-}
-
-.button-text {
-  font-family: var(--font-secondary);
-  font-size: var(--font-size-sm); /* 16px */
-  line-height: 1.3;
-  font-weight: var(--font-weight-semibold);
 }

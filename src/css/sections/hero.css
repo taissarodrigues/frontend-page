@@ -9,20 +9,20 @@
     url("../../../assets/img/destaque/destaque 1.png") center right / cover no-repeat;
 }
 
-.hero-title {
+.hero__title {
   min-width: 15.6rem;
   margin-bottom: 1.5rem;
   color: var(--text-secondary-color);
 }
 
-.hero-scroll-indicator {
+.hero__scroll-indicator {
   display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 4rem;
 }
 
-.hero-action-icon {
+.hero__scroll-icon {
   width: 3.125rem;
   height: 3.125rem;
 }
@@ -38,7 +38,7 @@
   }
 
 
-  .hero-title {
+  .hero__title {
     font-size: var(--font-size-xl);
      max-width: 10rem;
   }

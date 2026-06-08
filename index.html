@@ -19,33 +19,34 @@
 </head>
 
 <body>
-    <!-- Menu e hero  -->
+    <!-- Menu e hero -->
     <header class="site-header" id="inicio">
-        <nav class="navbar navbar-expand-lg  navbar-static-top navbar-custom">
+        <nav class="site-header__nav navbar navbar-expand-lg navbar-static-top">
             <div class="container">
-                <img src="./assets/logo/logo.png" alt="Logo Saint Seiya" class="logo" width="177" height="60">
+                <img src="./assets/logo/logo.png" alt="Logo Saint Seiya" class="site-header__logo" width="177"
+                    height="60">
 
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                <button class="site-header__toggle navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarMenu">
-                    <i class="fa-solid fa-bars" style="color: var(--navbar-toggler-color); font-size: 36px;"></i>
+                    <i class="site-header__toggle-icon fa-solid fa-bars"></i>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav ms-auto gap-3">
-                        <li class="nav-item">
-                            <a class="nav-link active link-menu" href="#Cavaleiros de Atena">Cavaleiros de Atena</a>
+                <div class="site-header__collapse collapse navbar-collapse" id="navbarMenu">
+                    <ul class="site-header__list navbar-nav ms-auto gap-3">
+                        <li class="site-header__item nav-item">
+                            <a class="site-header__link site-header__link--active nav-link active" href="#about">Cavaleiros de Atena</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-menu" href="#Os 88 cavaleiros">Os 88 cavaleiros</a>
+                        <li class="site-header__item nav-item">
+                            <a class="site-header__link nav-link" href="#saints">Os 88 cavaleiros</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-menu" href="#Os 12 dourados">Os 12 dourados</a>
+                        <li class="site-header__item nav-item">
+                            <a class="site-header__link nav-link" href="#gold-saints">Os 12 dourados</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-menu" href="#As 12 casas">As 12 casas</a>
+                        <li class="site-header__item nav-item">
+                            <a class="site-header__link nav-link" href="#houses">As 12 casas</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-menu" href="#Seja um cavaleiro!">Seja um cavaleiro!</a>
+                        <li class="site-header__item nav-item">
+                            <a class="site-header__link nav-link" href="#registration">Seja um cavaleiro!</a>
                         </li>
                     </ul>
                 </div>
@@ -56,33 +57,33 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
-                        <h1 class="title-main hero-title">Conheça os Cavaleiros de Bronze, a base do exército da deusa
+                        <h1 class="hero__title u-title-main">Conheça os Cavaleiros de Bronze, a base do exército da deusa
                             Atena</h1>
-                        <a class="button-text button-primary" href="#Cavaleiros de Atena">Veja mais</a>
+                        <a class="button button--primary" href="#about">Veja mais</a>
                     </div>
 
                 </div>
-                <div class="hero-scroll-indicator">
-                    <img src="./assets/img/icons/seta acordeon e fancybox.svg" alt="" class="hero-action-icon">
+                <div class="hero__scroll-indicator">
+                    <img src="./assets/img/icons/seta acordeon e fancybox.svg" alt="" class="hero__scroll-icon">
                 </div>
 
             </div>
         </section>
     </header>
     <!-- Sobre: apresentacao do cavaleiro -->
-    <section class="sobre-section py-5" id="sobre">
+    <section class="about py-5" id="about">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="title-section text-center mb-4">Cavaleiros de Atena</h2>
-                    <p class="text-medium mb-4">
+                    <h2 class="about__title u-title-section text-center mb-4">Cavaleiros de Atena</h2>
+                    <p class="about__text u-text-medium mb-4">
                         Os Cavaleiros de Atena (アテナの聖闘士セイント do japonês, "Santos de Atena"?) são o exército de Atena, a
                         deusa da sabedoria, que protegem a paz na Terra e que, até a Guerra Galática, eram desconhecidos
                         pelos humanos e eram só
                         lendas da mitologia grega pra eles. Eles estão por trás de todas as vitórias inexplicáveis em
                         guerras travadas entre humanos
                         durante a história. </p>
-                    <p class="text-medium mb-4">
+                    <p class="about__text u-text-medium mb-4">
                         Vindo dos quatro cantos do mundo, eles são dotados de força e coragem. Fiéis a Atena, que odeia
                         armas,
                         seus corpos são a única arma que dispõem para lutar (há exceções). Eles são capazes de romper o
@@ -91,7 +92,7 @@
                         Atena aparecem para combate-las.
                     </p>
 
-                    <p class="text-medium mb-4"> Eles treinam seus corpos além do limite humano, até que os punhos sejam
+                    <p class="about__text u-text-medium mb-4"> Eles treinam seus corpos além do limite humano, até que os punhos sejam
                         capazes de cortar o ar e partir a terra, e se protegem
                         com Armaduras sagradas. O seu Cosmo elevado produz um destrutivo soco que rompe a barreira do
                         som, chegando a esmigalhar blocos
@@ -103,7 +104,7 @@
                         Terra.
                     </p>
 
-                    <p class="text-medium"> Os escolhidos são treinados em sigilo sob a tutela de um mestre indicado
+                    <p class="about__text u-text-medium"> Os escolhidos são treinados em sigilo sob a tutela de um mestre indicado
                         pelo Santuário (que ensinam tudo sobre luta à eles) e, quando comprovada sua qualificação,
                         recebem uma das Armaduras.
                         A cada Cavaleiro é designada uma Armadura, conforme o destino de sua estrela. Ou seja, não lhe
@@ -118,23 +119,23 @@
     </section>
 
     <!-- Lista dos 88 Cavaleiros -->
-    <section class="saints-section py-5" id="saints">
+    <section class="saints py-5" id="saints">
         <div class="container">
 
-            <h2 class="title-section text-center mb-4">
+            <h2 class="saints__title u-title-section text-center mb-4">
                 Lista dos 88 Cavaleiros
             </h2>
 
-            <div class="accordion" id="accordionSaints">
+            <div class="saints__accordion accordion" id="accordionSaints">
 
                 <!-- Cavaleiros de Ouro -->
-                <div class="accordion-item">
+                <div class="saints__accordion-item accordion-item" id="gold-saints">
 
-                    <h2 class="accordion-header" id="headingGold">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    <h2 class="saints__accordion-header accordion-header" id="headingGold">
+                        <button class="saints__accordion-button accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseGold" aria-expanded="true" aria-controls="collapseGold">
                             Lista dos Cavaleiros de Ouro
-                            <i class="fa-solid fa-chevron-down ms-auto"></i>
+                            <i class="saints__accordion-icon fa-solid fa-chevron-down ms-auto"></i>
                         </button>
 
                     </h2>
@@ -142,9 +143,9 @@
                     <div id="collapseGold" class="accordion-collapse collapse show" aria-labelledby="headingGold"
                         data-bs-parent="#accordionSaints">
 
-                        <div class="accordion-body">
+                        <div class="saints__accordion-body accordion-body">
 
-                            <p class="text-medium">
+                            <p class="saints__accordion-text u-text-medium">
                                 Mu de Áries • Aldebaran de Touro • Saga de Gêmeos • Máscara da Morte de Câncer • Aiolia
                                 de Leão • Shaka de Virgem • Dohko de Libra • Milo de Escorpião • Aiolos de Sagitário •
                                 Shura de Capricórnio • Camus de Aquário • Afrodite de Peixes
@@ -155,14 +156,14 @@
                 </div>
 
                 <!-- Cavaleiros de Prata -->
-                <div class="accordion-item">
+                <div class="saints__accordion-item accordion-item">
 
-                    <h2 class="accordion-header" id="headingSilver">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <h2 class="saints__accordion-header accordion-header" id="headingSilver">
+                        <button class="saints__accordion-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseSilver" aria-expanded="false" aria-controls="collapseSilver">
 
                             Lista dos Cavaleiros de Prata
-                            <i class="fa-solid fa-chevron-down ms-auto"></i>
+                            <i class="saints__accordion-icon fa-solid fa-chevron-down ms-auto"></i>
 
                         </button>
                     </h2>
@@ -170,9 +171,9 @@
                     <div id="collapseSilver" class="accordion-collapse collapse" aria-labelledby="headingSilver"
                         data-bs-parent="#accordionSaints">
 
-                        <div class="accordion-body">
+                        <div class="saints__accordion-body accordion-body">
 
-                            <p class="text-medium">
+                            <p class="saints__accordion-text u-text-medium">
                                 Marin de Águia • Shaina de Ofiúco • Misty de Lagarto • Moses de Baleia • Asterion de
                                 Cães de Caça • Babel de Centauro • Jamian de Corvo • Algol de Perseu • Capella de
                                 Cocheiro • Dante de Cérbero • Sirius de Cão Maior • Algethi de Hércules • Dio de Mosca •
@@ -185,14 +186,14 @@
                 </div>
 
                 <!-- Cavaleiros de Bronze -->
-                <div class="accordion-item">
+                <div class="saints__accordion-item accordion-item">
 
-                    <h2 class="accordion-header" id="headingBronze">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <h2 class="saints__accordion-header accordion-header" id="headingBronze">
+                        <button class="saints__accordion-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseBronze" aria-expanded="false" aria-controls="collapseBronze">
 
                             Lista dos Cavaleiros de Bronze
-                            <i class="fa-solid fa-chevron-down ms-auto"></i>
+                            <i class="saints__accordion-icon fa-solid fa-chevron-down ms-auto"></i>
 
                         </button>
                     </h2>
@@ -200,9 +201,9 @@
                     <div id="collapseBronze" class="accordion-collapse collapse" aria-labelledby="headingBronze"
                         data-bs-parent="#accordionSaints">
 
-                        <div class="accordion-body">
+                        <div class="saints__accordion-body accordion-body">
 
-                            <p class="text-medium">
+                            <p class="saints__accordion-text u-text-medium">
                                 Seiya de Pégaso • Shiryu de Dragão • Hyoga de Cisne • Shun de Andrômeda • Ikki de Fênix
                                 • Jabu de Unicórnio • Ichi de Hidra • Geki de Urso • Nachi de Lobo • Ban de Leão Menor
                             </p>

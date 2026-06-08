@@ -1,4 +1,4 @@
-const navbar = document.querySelector(".navbar-custom");
+const navbar = document.querySelector(".site-header__nav");
 
 function toggleNavbarLinksOnScroll() {
   if (!navbar) {
