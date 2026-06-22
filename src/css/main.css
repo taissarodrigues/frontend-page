@@ -1,0 +1,22 @@
+/* Fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+/* Base do projeto */
+@import url(./base/reset.css);
+@import url(./base/variables.css);
+@import url(./base/typography.css);
+
+/* Componentes reutilizaveis */
+@import url(./components/accordion.css);
+@import url(./components/carousel.css);
+@import url(./components/gallery.css);
+@import url(./components/form.css);
+@import url(./components/button.css);
+
+/* Estrutura da pagina */
+@import url(./layout/footer.css);
+@import url(./layout/header.css);
+
+/* Secoes principais */
+@import url(./sections/hero.css);
+@import url(./sections/about.css);

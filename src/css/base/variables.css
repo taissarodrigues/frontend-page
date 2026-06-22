@@ -1,0 +1,56 @@
+/* Variaveis globais de cores e tipografia */
+:root {
+
+    --background-color: #05050F;
+
+    --primary-color: #161642;
+    --secondary-color: #272775;
+
+    --text-color: #DDD627;
+    --text-secondary-color: #F7F7F7;
+    --text-link-color: #05050F;
+
+    --color-white: #FFFFFF;
+    --navbar-toggler-color: #DDD627;
+    --primary-color-button:  #DDD627;
+    --border-muted-color: #d9d9d9;
+    --success-color: #2fb344;
+    --error-color: #dc3545;
+    --error-text-color: #ff6b6b;
+
+   /* cores para gradientes e sombras */
+  
+    --focus-shadow-color: rgba(221, 214, 39, 0.2);
+    --hero-gradient-start-color: rgba(5, 5, 15, 0);
+    --hero-gradient-end-color: rgba(5, 5, 15, 1);
+    --carousel-gradient-start-color: rgba(5, 5, 15, 0);
+    --carousel-gradient-mid-color: rgba(5, 5, 15, 0.58);
+    --carousel-gradient-end-color: rgba(5, 5, 15, 0.95);
+    --text-shadow-strong-color: rgba(0, 0, 0, 0.85);
+
+    /* Fontes */
+    --font-primary: "Montserrat", sans-serif;
+
+    --font-weight-medium:500;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+
+    --font-size-sm:1rem;
+    --font-size-md:1.125rem;
+    --font-size-lg:1.3125rem;
+    --font-size-xl:2.25rem;
+    --font-size-hero:4.5rem;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo base da pagina */
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color:var(--text-secondary-color);
+  font-family: var(--font-primary);
+}

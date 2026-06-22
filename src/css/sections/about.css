@@ -1,0 +1,9 @@
+/* Secao de apresentacao dos cavaleiros */
+.about {
+  background: var(--background-color);
+}
+
+.about__text {
+  text-align: justify;
+  line-height: 1.6;
+}

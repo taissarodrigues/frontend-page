@@ -1,0 +1,95 @@
+/* Secao do carousel de personagens */
+.carousel {
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+.carousel .container {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.carousel__track .owl-stage {
+  display: flex;
+}
+
+.carousel__track .owl-item {
+  opacity: 0.45;
+  transition: opacity 0.3s ease;
+}
+
+.carousel__track .owl-item.active {
+  opacity: 1;
+}
+
+.carousel__track .owl-nav,
+.carousel__track .owl-dots {
+  display: none;
+}
+
+/* Card de cada cavaleiro no carousel */
+.carousel__item {
+  position: relative;
+  height: 28.75rem;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color);
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+/* degrade */ 
+.carousel__item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    var(--carousel-gradient-start-color) 45%,
+    var(--carousel-gradient-mid-color) 74%,
+    var(--carousel-gradient-end-color) 100%
+  );
+}
+
+.carousel__name {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1.5rem;
+  margin: 0;
+  color: var(--color-white);
+  font-size: 1.75rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.08;
+  text-align: center;
+  text-shadow: 0 0.125rem 0.75rem var(--text-shadow-strong-color);
+}
+
+/* carrosel mobile */ 
+
+@media (max-width: 992px) {
+  .carousel__item {
+    height: 26.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .carousel__item {
+    height: 24.375rem;
+  }
+
+  .carousel__name {
+    font-size: 1.5rem;
+  }
+}
