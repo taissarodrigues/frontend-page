@@ -1,11 +1,16 @@
+/* Header */ 
 .site-header__nav {
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999;
   background: var(--primary-color);
   display: flex;
+}
+
+.site-header__logo {
+  width: 11.0625rem;
+  height: 3.75rem;
 }
 
 .site-header__toggle-icon {
@@ -21,10 +26,19 @@
   color: var(--text-color);
 }
 
+.site-header__nav .navbar-nav .nav-link,
 .site-header__link:hover,
+.site-header__link:focus,
+.site-header__link:visited,
 .site-header__link--active,
-.site-header__link.active {
+.site-header__nav .navbar-nav .nav-link.active,
+.site-header__nav .navbar-nav .nav-link.show {
   color: var(--text-color);
+}
+
+.site-header__link:focus-visible {
+  outline: 0.125rem solid var(--text-color);
+  outline-offset: 0.25rem;
 }
 
 .site-header__collapse {

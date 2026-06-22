@@ -1,12 +1,33 @@
+/* Hero principal com imagem de destaque */
 .hero {
   min-height: 100vh;
   padding: 10rem 0 5rem;
+  position: relative;
   display: flex;
   align-items: center;
-  background:
-    linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, 
-                            rgba(5, 5, 15, 1) 100%),
-    url("../../../assets/img/destaque/destaque 1.png") center right / cover no-repeat;
+  background-image:
+    linear-gradient(180deg, var(--hero-gradient-start-color) 0%,
+                            var(--hero-gradient-end-color) 100%),
+    var(--hero-image);
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero--image-1 {
+  --hero-image: url("../../../assets/img/destaque/destaque 1.png");
+}
+
+.hero--image-2 {
+  --hero-image: url("../../../assets/img/destaque/destaque 2.png");
+}
+
+.hero--image-3 {
+  --hero-image: url("../../../assets/img/destaque/destaque 3.png");
+}
+
+.hero--image-4 {
+  --hero-image: url("../../../assets/img/destaque/destaque 4.png");
 }
 
 .hero__title {
@@ -27,19 +48,63 @@
   height: 3.125rem;
 }
 
-@media (max-width: 991px) {
+.hero__markers {
+  position: absolute;
+  top: 42%;
+  right: 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero__marker {
+  width: 2rem;
+  height: 2rem;
+  border: 0.0625rem solid var(--text-color);
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  cursor: pointer;
+}
+
+.hero__marker--active,
+.hero__marker:hover,
+.hero__marker:focus {
+  background-color: var(--text-color);
+  color: var(--text-link-color);
+}
+
+@media (max-width: 992px) {
   .hero {
     min-height: 100vh;
     padding: 8rem 0 4rem;
-    background:
-      linear-gradient(180deg, rgba(5, 5, 15, 0) 0%, 
-                              rgba(5, 5, 15, 1) 100%),
-      url("../../../assets/img/destaque/destaque 1.png") center top / cover no-repeat;
+    background-position: center top;
   }
 
 
   .hero__title {
     font-size: var(--font-size-xl);
      max-width: 10rem;
+  }
+
+  .hero__markers {
+    right: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__markers {
+    position: static;
+    flex-direction: row;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero__marker {
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }

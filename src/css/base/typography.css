@@ -1,35 +1,40 @@
-.u-title-main {
+/* Titulo principal usado no hero */
+.title--main {
   font-family: var(--font-primary);
-  font-size: var(--font-size-hero); /* 72px */
+  font-size: var(--font-size-hero);
   line-height: 1.1;
   font-weight: var(--font-weight-bold);
 }
 
-.u-title-section {
+/* Titulos das secoes */
+.title--section {
   font-family: var(--font-primary);
-  font-size: var(--font-size-xl); /* 36px */
+  font-size: var(--font-size-xl);
   line-height: 1.2;
   font-weight: var(--font-weight-bold);
   color: var(--text-color);
 }
 
-.u-title-card {
+/* Titulos menores usados em cards */
+.title--card {
   font-family: var(--font-primary);
-  font-size: var(--font-size-lg); /* 21px */
+  font-size: var(--font-size-lg);
   line-height: 1.3;
   font-weight: var(--font-weight-bold);
 }
 
-.u-text-large {
+/* Texto de destaque */
+.text--large {
   font-family: var(--font-primary);
-  font-size: var(--font-size-md); /* 18px */
+  font-size: var(--font-size-md);
   line-height: 1.5;
   font-weight: var(--font-weight-medium);
 }
 
-.u-text-medium {
+/* Texto padrao do conteudo */
+.text--medium {
   font-family: var(--font-primary);
-  font-size: var(--font-size-sm); /* 16px */
+  font-size: var(--font-size-sm);
   line-height: 1.5;
   font-weight: var(--font-weight-medium);
 }
