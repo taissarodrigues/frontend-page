@@ -5,8 +5,7 @@ Este é um projeto de landing page responsiva inspirado no universo de Saint Sei
 O projeto foi construído utilizando HTML, CSS e JavaScript, com apoio de Bootstrap, Owl Carousel, Fancybox e jQuery para criar navegação responsiva, componentes interativos e uma apresentação fluida em desktop, tablet e mobile.
 
 <p align="center">
-  <img width="1512" alt="Preview da Landing Page Saint Seiya" src="./assets/img/destaque/destaque%201.png" />
-</p>
+  <img width="1512" alt="Preview da Landing Page Saint Seiya" src="https://github.com/user-attachments/assets/8f76ade4-498a-4de6-95ee-41f41103beb9" />
 
 ---
 
@@ -25,7 +24,6 @@ O projeto foi construído utilizando HTML, CSS e JavaScript, com apoio de Bootst
 - Feedback visual de erro e sucesso nos campos do formulário
 - Organização de classes seguindo boas práticas com BEM
 - Medidas de tamanho estruturadas em REM
-- Cuidados de acessibilidade com labels, textos alternativos e atributos ARIA
 
 ---
 
@@ -38,7 +36,6 @@ O projeto foi construído utilizando HTML, CSS e JavaScript, com apoio de Bootst
 - jQuery
 - Owl Carousel 2
 - Fancybox
-- Font Awesome
 
 ---
 
