@@ -44,18 +44,6 @@
   object-position: center top;
   display: block;
 }
-/* degrade */ 
-.carousel__item::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    var(--carousel-gradient-start-color) 45%,
-    var(--carousel-gradient-mid-color) 74%,
-    var(--carousel-gradient-end-color) 100%
-  );
-}
 
 .carousel__name {
   position: absolute;
